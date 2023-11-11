@@ -24,5 +24,18 @@ internal class Program
             Console.WriteLine(urun.Aciklama);
             Console.WriteLine("---------------");
         }
+
+        Console.WriteLine("----------- METOTLAR --------------");
+
+        //instance - örnek
+        //encapsulation
+        SepetManager sepetManager = new SepetManager();
+        sepetManager.Ekle(urun1);
+        sepetManager.Ekle(urun2);
+
+        sepetManager.Ekle2("Armut", "Yeşil Armut", 12,10);
+        sepetManager.Ekle2("Elma", "Yeşil Elma", 12,9);
+        sepetManager.Ekle2("Karpuz", "Diyarbakır karpuzu", 12,8);
+
     }
 }
