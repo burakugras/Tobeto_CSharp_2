@@ -11,10 +11,10 @@ namespace OOP2
     {
         public void Ekle(Musteri musteri)
         {
-            if ()
-            {
+            //if ()
+            //{
 
-            }
+            //}
         }
     }
 }
