@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegerVeReferansTipler", "De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{18CF383E-17EC-4B64-A0F5-491EC3BC6E3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{F1731322-77D3-4F61-B653-9810E7349E8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{18CF383E-17EC-4B64-A0F5-491EC3BC6E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18CF383E-17EC-4B64-A0F5-491EC3BC6E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18CF383E-17EC-4B64-A0F5-491EC3BC6E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1731322-77D3-4F61-B653-9810E7349E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1731322-77D3-4F61-B653-9810E7349E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1731322-77D3-4F61-B653-9810E7349E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1731322-77D3-4F61-B653-9810E7349E8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
