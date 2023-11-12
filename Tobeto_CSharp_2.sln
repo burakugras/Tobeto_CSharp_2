@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tobeto_CSharp_2", "Tobeto_CSharp_2\Tobeto_CSharp_2.csproj", "{2AB2671C-E78A-4B35-8D30-39E4F4B5C7FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tobeto_CSharp_2", "Tobeto_CSharp_2\Tobeto_CSharp_2.csproj", "{2AB2671C-E78A-4B35-8D30-39E4F4B5C7FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotlar.csproj", "{78C4D3CC-6686-45E5-BB4C-71F2A3A504FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotlar.csproj", "{78C4D3CC-6686-45E5-BB4C-71F2A3A504FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematik", "Matematik\Matematik.csproj", "{5DDA708C-DC70-4485-9122-CD9A1122CED1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik", "Matematik\Matematik.csproj", "{5DDA708C-DC70-4485-9122-CD9A1122CED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{9F392122-1B1D-45A1-B290-E82B25768EBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5DDA708C-DC70-4485-9122-CD9A1122CED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DDA708C-DC70-4485-9122-CD9A1122CED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DDA708C-DC70-4485-9122-CD9A1122CED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F392122-1B1D-45A1-B290-E82B25768EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F392122-1B1D-45A1-B290-E82B25768EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F392122-1B1D-45A1-B290-E82B25768EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F392122-1B1D-45A1-B290-E82B25768EBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
