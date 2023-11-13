@@ -10,11 +10,17 @@ internal class Program
 
         IKrediManager konutKrediManager = new KonutKrediManager();
 
+        ILoggerService databaseLoggerService=new DatabaseLoggerService();
+        ILoggerService fileLoggerService = new FileLoggerService();
+
+        List<ILoggerService> loggers=new List<ILoggerService> { new SmsLoggerService(), new DatabaseLoggerService(),new FileLoggerService()};
+
         BasvuruManager basvuruManager = new BasvuruManager();
-        //basvuruManager.BasvuruYap(konutKrediManager);
+        basvuruManager.BasvuruYap(new EsnafKredisiManager(),loggers);
 
         List<IKrediManager> krediler=new List<IKrediManager> { ihtiyacKrediManager,tasitKrediManager};
-        basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+
+        //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
 
     }
 }
